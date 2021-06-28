@@ -3,9 +3,9 @@
     Lexer specification for micro-C, a small imperative language
   *)
 
-module CLex
+
   
-open Microsoft.FSharp.Text.Lexing
+open FSharp.Text.Lexing
 open CPar;
 
 let lexemeAsString lexbuf = 

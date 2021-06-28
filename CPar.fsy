@@ -6,7 +6,7 @@
 *)
 
 open Absyn
-open Microsoft.FSharp.Text.Lexing
+open FSharp.Text.Lexing
 
 // Vardesc 返回的是一个 元组 (g,s)
 // g是类型构造函数，s是变量名
